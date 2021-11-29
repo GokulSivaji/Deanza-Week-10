@@ -1,3 +1,4 @@
+/* imports an url for us to use */
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap');
 *{
     margin:0;
@@ -20,10 +21,12 @@ header{
     background-color: rgb(17, 19, 19);
     font-weight: 500;
 }
+/* styles the button hover */
 button:hover{
     background-color: rgb(27, 21, 114);
     color: rgb(221, 202, 202);
 }
+/* styles the buttons */
  button{
     border: 0;
     padding: 3px 25px;
@@ -32,7 +35,7 @@ button:hover{
     background-color: rgb(62, 96, 170);
     color: rgb(221, 202, 202);
 }
-
+/* main section for about me html */
 main{
     margin-top:5%;
     display: flex;
@@ -49,19 +52,22 @@ main{
     border-radius: 20px;
     opacity: 70%;
 }
+/* logo */
 .logo{
     width: 20%;
     height: 30%;
     margin-left: 40%;
 }
+/* description styling */
 .description{
     width: 80%;
     height: 50%;
-    margin-left: 20%;
+    margin-left: 10%;
     margin-top: 5%;
     font-size: 1.5rem;
     color: rgb(221, 202, 202);
 }
+/* fixes the mobile view */
 @media screen and (max-width: 600px){
     .logo{
     width: 30%;
@@ -69,7 +75,7 @@ main{
     margin-left: 35%;   
     }
     .description{
-        margin-left: 20%;
+        margin-left: 10%;
     }
     
 } 
